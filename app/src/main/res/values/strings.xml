@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Business Mobile Banking</string>
+    <string name="action_settings">News Feeds</string>
+    <string name="item2">Update Profile</string>
+    <string name="item3">Remove Profile</string>
+    <string name="news_feeds">News Feeds</string>
+    <string name="title_activity_validate_account">Validate Account</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_profile">Profile</string>
+
+    <string name="check_saving">Saving</string>
+    <string name="check_visa">VISA</string>
+    <string name="check_cheque">Cheque</string>
+    <string name="check_debit">Debit</string>
+
+
+    <string name="check_three_weeks">3 Weeks</string>
+    <string name="check_three_months">3 Months</string>
+    <string name="check_three_years">3 Years</string>
+
+    <string name="check_daily">Daily</string>
+    <string name="check_weekly">Weekly</string>
+    <string name="check_monthly">Months</string>
+    <string name="check_yearly">Yearly</string>
+
+    <string-array name="users">
+        <item>User1</item>
+        <item>User2</item>
+        <item>User3</item>
+        <item>User4</item>
+        <item>User5</item>
+    </string-array>
+
+    <array name="profile_pics">
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic5</item>
+        <item>@drawable/pic6</item>
+    </array>
+
+
+
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_social_media">Social Media</string>
+    <string name="title_activity_expenditures">Expenditures</string>
+    <string name="title_activity_banking_statement">Banking Statement</string>
+    <string name="title_activity_cash_deposit">Cash Deposit</string>
+    <string name="title_activity_cash_transfer">Cash Transfer</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_view_gallery">View Gallery</string>
+    <string name="title_activity_view_statement">Three Year Statement</string>
+    <string name="title_activity_rowmodel">row model</string>
+    <string name="title_activity_three_days">Three Days</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello World Fragment</string>
+    <string name="title_activity_balance_period">Balance Period</string>
+    <string name="title_activity_show_statement">show Statement</string>
+    <string name="title_activity_view_expenditures">View Expenditures</string>
+    <string name="title_activity_three_weeks">Three Weeks</string>
+    <string name="title_activity_three_months">Three Months</string>
+    <string name="title_activity_three_years">Three Years</string>
+    <string name="title_activity_news_feeds">News Feeds</string>
+    <string name="title_activity_period">Period</string>
+    <string name="title_activity_three_week_statement">Three Week Statement</string>
+    <string name="title_activity_three_month_statement">Three Month Statement</string>
+    <string name="title_activity_update_profile">UpdateProfile</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_remove_profile">RemoveProfile</string>
+</resources>

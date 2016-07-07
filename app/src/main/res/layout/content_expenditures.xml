@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_expenditures"
+    tools:context="com.example.abvn237.myapplication.Expenditures">
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Transaction Period"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" /> -->
+
+
+   <!-- <CheckBox
+        android:id="@+id/chkThreeDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="30dp"
+        android:text="@string/check_three_days"/>
+
+
+    <CheckBox
+        android:id="@+id/chkThreeMonths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_three_months"
+        android:layout_below="@+id/chkThreeDays"
+        android:layout_alignLeft="@+id/textView15"
+        android:onClick="selectItem"
+        android:layout_marginTop="25dp" />
+
+    <CheckBox
+        android:id="@+id/chkThreeYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@string/check_three_years"
+        android:layout_below="@+id/chkThreeMonths"
+        android:layout_marginTop="22dp"
+        android:onClick="selectItem"
+        android:text="@string/check_three_years"/> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Type of Account"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <CheckBox
+        android:id="@+id/chkSavings2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="30dp"
+        android:text="@string/check_saving"/>
+
+
+    <CheckBox
+        android:id="@+id/chkVISA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_visa"
+        android:layout_below="@+id/chkSavings2"
+        android:layout_alignLeft="@+id/textView15"
+        android:onClick="selectItem"
+        android:layout_marginTop="25dp" />
+
+    <CheckBox
+        android:id="@+id/chkCheque2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@string/check_cheque"
+        android:layout_below="@+id/chkVISA2"
+        android:layout_marginTop="22dp"
+        android:onClick="selectItem"
+        android:text="@string/check_cheque"/>
+
+    <CheckBox
+        android:id="@+id/chkDebit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chkCheque2"
+        android:layout_marginTop="24dp"
+        android:onClick="selectItem"
+        android:text="@string/check_debit"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Home" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Home" />
+        <item android:id="@+id/Profile" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Profile" />
+        <item android:id="@+id/BankingStatement" android:icon="@android:drawable/ic_menu_share"
+            android:title=" Banking Statement" />
+        <item android:id="@+id/CashDeposit" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Cash Deposit" />
+        <item android:id="@+id/Logout" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
